@@ -1033,13 +1033,13 @@
 		function getTimeHTML()
 		{
 			var timeHtml = '<div>'
-				+'<span>Time: <span class="hour-val">00</span>:<span class="minute-val">00</span></span>'
+				+'<span>时间: <span class="hour-val">00</span>:<span class="minute-val">00</span></span>'
 				+'</div>'
 				+'<div class="hour">'
-				+'<label>Hour: <input type="range" class="hour-range" name="hour" min="0" max="23"></label>'
+				+'<label>小时: <input type="range" class="hour-range" name="hour" min="0" max="23"></label>'
 				+'</div>'
 				+'<div class="minute">'
-				+'<label>Minute: <input type="range" class="minute-range" name="minute" min="0" max="59"></label>'
+				+'<label>分钟: <input type="range" class="minute-range" name="minute" min="0" max="59"></label>'
 				+'</div>';
 			return timeHtml;
 		}
